@@ -23,4 +23,33 @@ print(nombre, type(nombre), seg, type(seg), hrs, type(hrs), activo, type (activo
 
 
 
+
+
+
+
+
+# 1) Lista de horas_redes e indexación/sustitución
+horas_redes_lista = [fila[2] for fila in datos]
+print("Lista de horas_redes (primeros 5):", horas_redes_lista[:5])
+
+horas_redes_lista[1] = 99.9
+print("Lista de horas_redes modificada (primeros 5):", horas_redes_lista[:5])
+# 2) Diccionario del primer usuario y modificación
+primer_usuario = datos[0]
+dic_usuario = {
+    "usuario": primer_usuario[0],
+    "seguidores": primer_usuario[1],
+    "horas_estudio": primer_usuario[4]
+}
+print("Diccionario original:", dic_usuario)
+
+# Modificar valor de seguidores
+dic_usuario["seguidores"] = 12345
+print("Diccionario modificado:", dic_usuario)
+
+
+# 3) Conjunto de plataformas (sin duplicados)
+
+
+
 # Asignación:
