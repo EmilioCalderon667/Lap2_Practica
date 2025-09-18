@@ -1,1 +1,26 @@
+# === Solución Ejercicio 1 ===
+# (Complete su código aquí)
 
+# 1) Variables y tipos
+nombre ="Usuario1"
+seg = 152
+hrs =float(7.4)
+activo =True
+plataformas =["Tiktok"]
+
+
+# 2) Imprimir valor y type()
+print(nombre, type(nombre), seg, type(seg), hrs, type(hrs), activo, type (activo), plataformas, type (plataformas))
+
+
+
+# 3) Operadores con valores del dataset
+# Aritméticos:
+
+
+
+# Relacionales y lógicos:
+
+
+
+# Asignación:
